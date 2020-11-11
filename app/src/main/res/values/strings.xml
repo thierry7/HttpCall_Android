@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GoogleBootsAPI</string>
+    <string name="bookName">Enter Book Name</string>
+    <string name="maxResult">Max Result</string>
+</resources>
