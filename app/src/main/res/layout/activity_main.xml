@@ -1,67 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#8274A3"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <EditText
         android:id="@+id/editTextTextPersonName"
-        android:layout_width="300dp"
+        android:layout_width="297dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="30dp"
         android:background="@drawable/edit_text"
-        android:layout_marginTop="168dp"
-        android:hint="@string/bookName"
         android:drawableEnd="@drawable/ic_baseline_search_24"
         android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:hint="@string/bookName"
+        android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
-        android:layout_width="300dp"
-
+        android:layout_width="297dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="66dp"
         android:background="@drawable/edit_text"
-        android:ems="10"
         android:drawableEnd="@drawable/ic_baseline_format_list_numbered_24"
+        android:ems="10"
         android:hint="@string/maxResult"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/editTextTextPersonNam"
-        android:layout_width="300dp"
+        android:layout_width="297dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="30dp"
         android:background="@drawable/edit_text"
         android:drawableEnd="@drawable/ic_baseline_search_24"
-        android:ems="10"
         android:hint="@string/bookName"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2"
-        app:layout_constraintVertical_bias="0.039" />
+        android:inputType="textPersonName" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="250dp"
+        android:layout_width="277dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="104dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="95dp"
         android:background="#205C88"
-        android:text="Button"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:text="Button" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
